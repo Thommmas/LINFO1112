@@ -1,3 +1,4 @@
+# Schiltz Thomas - April 2023
 def multiply(A,B):
     if len(A[0])!=len(B):  # compatibility check
         raise Exception('Dimension mismatch')
