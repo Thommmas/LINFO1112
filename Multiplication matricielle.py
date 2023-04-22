@@ -7,12 +7,6 @@ def multiply(A,B):
                     multiplied.append(A[n][u]*B[u][n])
         return multiplied
 
-    except:
-        if len(A[0])!=len(B):  # Compatibility check
-            raise Exception('Dimension mismatch')
-        return Exception
-        
-
 A = [[1,2,3,4,5]]
 B = [[10],
      [20],
